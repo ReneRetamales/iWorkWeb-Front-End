@@ -1,0 +1,63 @@
+.editarPerfilCliContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+}
+.navMenu {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.5rem;
+  margin: 0;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 3px 3px 10px #dddddd;
+}
+.editarData {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 1rem;
+  gap: 1rem;
+}
+.editarInputs {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #e1e4e8;
+  box-shadow: 3px 3px 10px #dddddd;
+  background-color: #f8f9fa;
+}
+.editarButton {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.botonGuardar {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .editarData,
+  .editarInputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .editarButton {
+    display: flex;
+    justify-content: center;
+  }
+}

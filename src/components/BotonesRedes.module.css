@@ -1,0 +1,8 @@
+.botonesRedes {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.botonRed {
+  flex: 1;
+}

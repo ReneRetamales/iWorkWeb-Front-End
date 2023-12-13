@@ -1,0 +1,54 @@
+.agregarCalificacionContainer {
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+}
+.dialogo {
+  width: 95%;
+  height: 65%;
+  user-select: none;
+}
+.contentModal {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0rem;
+  gap: 2rem;
+}
+.calificacion {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+}
+.resena {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+}
+/* .divInput{
+
+} */
+.inputText {
+  padding-bottom: 7.5rem;
+  width: 100%;
+}
+.footer {
+  display: flex-end;
+  gap: 1rem;
+}
+@media (min-width: 768px) {
+  .dialogo {
+    width: 75%;
+    height: 75%;
+  }
+}
+@media (min-width: 1200px) {
+  .dialogo {
+    width: 45%;
+    height: 65%;
+  }
+}

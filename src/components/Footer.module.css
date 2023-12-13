@@ -1,0 +1,29 @@
+.footerContainer {
+  background-color: #f8f9fa;
+  border: 1px solid #eeeeee;
+  padding: 1rem 1rem;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.link:hover {
+  color: #000000a6;
+}
+.footerRedes {
+  display: flex;
+  gap: 2rem;
+}
+.redes {
+  font-size: 1.5rem;
+  color: black;
+}
+.redes:hover {
+  color: #000000a6;
+}
+
+@media (min-width: 1200px) {
+  .footerContainer {
+    padding: 0.5rem 15rem;
+  }
+}

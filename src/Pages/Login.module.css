@@ -1,0 +1,104 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-image: url(/src/Images/background.png);
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  user-select: none;
+}
+.loginLogo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem 1rem;
+  user-select: none;
+}
+.logo {
+  width: 17.5rem;
+  filter: drop-shadow(3px 3px 3px #00000025);
+}
+.loginData {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1rem 1rem;
+}
+.loginSwitchButton {
+  margin-bottom: 1rem;
+}
+.loginForm {
+  gap: 0.5rem;
+}
+.loginForm,
+.loginRegisterButton {
+  display: flex;
+  flex-direction: column;
+}
+.createNewUser {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin: 1rem 1rem;
+}
+.link {
+  text-decoration: none;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+}
+.loginContrasena {
+  display: flex;
+  flex-direction: row;
+}
+.contrasena {
+  flex: 1;
+}
+.botonOcultar {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: #00000026;
+  color: white;
+  border-radius: 0rem 0.5rem 0.5rem 0rem;
+  padding: 0rem 1rem;
+}
+.error {
+  color: red;
+  font-weight: lighter;
+}
+@media (min-width: 320px) {
+  .loginData {
+    margin: 0rem 1rem;
+  }
+}
+@media (min-width: 480px) {
+  .loginData {
+    margin: 0rem 5rem;
+  }
+  .createNewUser {
+    margin: 1rem 5rem;
+  }
+}
+@media (min-width: 768px) {
+  .loginData,
+  .createNewUser {
+    display: flex;
+    align-items: center;
+  }
+  .createNewUser {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,96 @@
+.agregarPortafolioContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+  user-select: none;
+}
+.navMenu {
+  display: flex;
+  align-items: center;
+  padding: 0.4rem;
+  margin: 0;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e1e4e8;
+  gap: 0.5rem;
+  box-shadow: 3px 3px 10px #dddddd;
+}
+.agregarCarta {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 0rem 1rem;
+  gap: 1rem;
+}
+.agregarData {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #e1e4e8;
+  box-shadow: 3px 3px 10px #dddddd;
+  background-color: #f8f9fa;
+}
+.agregarInputs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.inputTextArea {
+  height: 7.5rem;
+}
+.agregarButtons {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  gap: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #e1e4e8;
+  box-shadow: 3px 3px 10px #dddddd;
+  background-color: #f8f9fa;
+}
+.agregarImagenes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.agregarGuardarBoton {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+@media (min-width: 768px) {
+  .agregarCarta {
+    display: flex;
+    flex-direction: row;
+  }
+  .agregarData {
+    transition: transform 0.1s ease;
+  }
+  .agregarData:hover {
+    transform: scale(1.01);
+  }
+  .agregarButtons {
+    transition: transform 0.1s ease;
+  }
+  .agregarButtons:hover {
+    transform: scale(1.01);
+  }
+  .agregarGuardarBoton {
+    align-items: center;
+    margin: 1rem;
+  }
+}
+@media (min-width: 1200px) {
+  .agregarCarta {
+    margin: 0rem 15rem;
+  }
+}

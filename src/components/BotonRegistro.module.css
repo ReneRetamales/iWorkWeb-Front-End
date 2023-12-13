@@ -1,0 +1,22 @@
+.botonRegistroComponent {
+  display: flex;
+  flex-direction: column;
+}
+.dialogoTerCon {
+  width: 90%;
+  height: 75%;
+}
+.update {
+  font-style: italic;
+  font-weight: lighter;
+}
+.tittle {
+  font-weight: bolder;
+}
+
+@media (min-width: 768px) {
+  .dialogoTerCon {
+    width: 50%;
+    height: 65%;
+  }
+}

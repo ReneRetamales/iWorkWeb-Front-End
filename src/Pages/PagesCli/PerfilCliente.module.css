@@ -1,0 +1,143 @@
+.perfilClienteContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+  user-select: none;
+}
+.navMenu {
+  box-shadow: 3px 3px 10px #dddddd;
+}
+.vistaPerfilCliente {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  border: 1px solid #e1e4e8;
+  gap: 1rem;
+  background-color: #f8f9fa;
+  box-shadow: 3px 3px 10px #dddddd;
+}
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  width: 100%;
+}
+.vistaResena {
+  margin: 0rem 1rem;
+}
+.dataResena {
+  margin-bottom: 1rem;
+}
+.scrollableResenas {
+  max-height: 25rem;
+  overflow-x: hidden;
+}
+.resenas {
+  display: flex;
+  text-align: left;
+  flex-direction: column-reverse;
+  justify-content: center;
+  gap: 1rem;
+}
+.resenaBloque {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  border: 1px solid #e1e4e8;
+  text-align: left;
+  gap: 1rem;
+  background-color: #f8f9fa;
+  box-shadow: 3px 3px 10px #dddddd;
+}
+.resenaBloqueData {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.resenaBloqueUser {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.resenaNombre {
+  flex: 1;
+  font-weight: bold;
+}
+.resenaNombre::first-letter {
+  text-transform: uppercase;
+}
+.resenaBloqueComent {
+  flex: 6;
+}
+.resenaComent {
+  padding-top: 1rem;
+}
+
+@media (min-width: 320px) {
+  .divFooter {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .vistaPerfilCliente {
+    transition: transform 0.1s ease;
+  }
+  .vistaPerfilCliente:hover {
+    transform: scale(1.01);
+  }
+  .buttonContainer {
+    align-items: center;
+  }
+  .resenaBloque {
+    margin: 0rem 0.5rem;
+    flex-direction: row;
+    transition: transform 0.1s ease;
+  }
+  .resenaBloque:hover {
+    transform: scale(1.01);
+  }
+  .resenaBloqueData {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+  .dataResena {
+    margin-bottom: 0rem;
+  }
+  .scrollableResenas {
+    max-height: 45rem;
+    overflow-x: hidden
+  }
+  .resenas {
+    padding: 0.5rem;
+  }
+  .resenaBloqueComent {
+    border-left: 1px solid #e1e4e8;
+  }
+  .resenaComent {
+    flex: 1;
+    padding-top: 0rem;
+    padding-left: 1rem;
+    border-top: 0px;
+  }
+  .divFooter {
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  .vistaPerfilCliente {
+    margin: 0rem 15rem;
+  }
+  .vistaResena {
+    margin: 0rem 15rem;
+  }
+}

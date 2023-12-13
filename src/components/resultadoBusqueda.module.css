@@ -1,0 +1,46 @@
+.busqueda {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.resultados {
+  display: flex;
+  flex-direction: column;
+}
+.resultado {
+  padding: 0.5rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e1e4e8;
+  border-left: 1px solid #e1e4e8;
+  border-right: 1px solid #e1e4e8;
+  cursor: pointer;
+}
+.resultado:hover {
+  background-color: #ffffff;
+}
+.nombre {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+.chip {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap-reverse;
+}
+@media (min-width: 768px) {
+  .busqueda {
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) {
+  .busqueda {
+    width: 25%;
+  }
+}

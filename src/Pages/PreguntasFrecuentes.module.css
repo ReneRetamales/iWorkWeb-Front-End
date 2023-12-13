@@ -1,0 +1,56 @@
+.preguntasFrecuentesContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+  user-select: none;
+}
+.navMenu {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.5rem;
+  margin: 0;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #00000026;
+  gap: 0.5rem;
+  box-shadow: 3px 3px 10px #dddddd;
+}
+.preguntasLista {
+  display: flex;
+  flex-direction: column;
+  margin: 0rem 1rem;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+.parrafo {
+  text-align: left;
+}
+.button {
+  display: flex;
+}
+.dialogoTerCon {
+  width: 90%;
+  height: 75%;
+}
+.update {
+  font-style: italic;
+  font-weight: lighter;
+}
+.tittle {
+  font-weight: bolder;
+}
+
+@media (min-width: 768px) {
+  .dialogoTerCon {
+    width: 50%;
+    height: 65%;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .preguntasLista{
+    margin: 0rem 20rem;
+  }
+}
